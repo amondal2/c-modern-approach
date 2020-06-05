@@ -3,9 +3,16 @@
 int main(void)
 {
     int height, length, width, volume, weight;
-    height = 8;
-    length = 12;
-    width = 10;
+
+    printf("Enter height: ");
+    scanf("%d", &height);
+
+    printf("Enter width: ");
+    scanf("%d", &width);
+
+    printf("Enter length: ");
+    scanf("%d", &length);
+
     volume = height * length * width;
     weight = (volume + 165) / 166;
 
